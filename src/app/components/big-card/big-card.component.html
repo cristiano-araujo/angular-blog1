@@ -1,7 +1,7 @@
 <div class="container__big-card">
     <div class="big-card__photo">
-        <img 
-        src="https://scontent.ffor30-1.fna.fbcdn.net/v/t39.30808-6/324895928_707943417619074_2132939391092169460_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=e3f864&_nc_eui2=AeG6GT1tqxM0lVQYDzQu0HJ3oiUjkaFCGSiiJSORoUIZKIiksOFkki6ECyFtN8TjWoKfzqVchCucxweVhH1wPY4L&_nc_ohc=vblyZqLe9OsAX-hjgKz&_nc_ht=scontent.ffor30-1.fna&oh=00_AfABpaQfUPtJs3yU9a185gIVUjy_OBBWwG-rtIkj3D4xdA&oe=644E62D8" 
+        <img  photoCover:string
+        src=" {{photoCover}}" 
         alt="" 
         height="200px"
         srcset=""
@@ -9,12 +9,11 @@
     </div>
 
     <div class="big-card__title">
-        <h1><a href="#">Culto de Celebração aos Domingos!</a></h1>
+        <h1><a href="#"> {{ cardTitle }}</a></h1>
     </div>
 
     <div class="big-card__description">
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio ipsa, aliquam quis repellat quibusdam totam. Harum voluptatibus obcaecati saepe, sint vero placeat non mollitia nihil quod. Ad dignissimos excepturi cupiditate?
+        <p> {{ cardDescription}}
         </p>
     </div>
 </div>
